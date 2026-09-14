@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+
+
+@theme {
+  --font-display: "Archivo Black", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+
+  --color-ink: #0d0d0d;
+  --color-ink-soft: #161616;
+  --color-bone: #f2f2ee;
+  --color-bone-dim: #cfcfc8;
+  --color-volt: #d5ff40;
+  --color-volt-dim: #a8cc2f;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-ink);
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-ink);
+  color: var(--color-bone);
+  font-family: var(--font-body);
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-volt);
+  outline-offset: 3px;
+}
