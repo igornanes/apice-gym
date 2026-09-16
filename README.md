@@ -30,7 +30,7 @@ cd apice-gym
 npm install
 npm run dev
 ```
-Preview do site Apice Gym (./screenshots/principal.png)
+![Preview do site Apice Gym](./screenshots/principal.png)
 
 ## Autor:
 
